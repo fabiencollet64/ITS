@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ITS Travaux Spéciaux – Réparation et renforcement d'ouvrages en béton</title>
+<meta name="description" content="ITS Travaux Spéciaux (groupe IVEBAT) répare, renforce et prolonge la durabilité des ouvrages en béton armé et précontraint : parkings, ouvrages d'art, immeubles, sites industriels. Île-de-France, Grand Ouest et toute la France.">
+<link rel="canonical" href="https://fabiencollet64.github.io/its-travaux-speciaux/">
+<meta name="theme-color" content="#141a21">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo-512.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="ITS Travaux Spéciaux">
+<meta property="og:title" content="ITS Travaux Spéciaux – Réparation et renforcement d'ouvrages en béton">
+<meta property="og:description" content="Réparation, renforcement et prolongation de la durabilité des ouvrages en béton armé et précontraint. Bureau d'études intégré, équipes mobiles partout en France.">
+<meta property="og:url" content="https://fabiencollet64.github.io/its-travaux-speciaux/">
+<meta property="og:image" content="https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/hero-chantier-1200.webp">
+<link rel="preload" as="image" type="image/avif" imagesrcset="assets/img/hero-chantier-480.avif 480w, assets/img/hero-chantier-800.avif 800w, assets/img/hero-chantier-1200.avif 1200w, assets/img/hero-chantier-1600.avif 1600w" imagesizes="(min-width: 960px) 50vw, 100vw" fetchpriority="high">
+<style>
+:root{--red:#c8102e;--red-dark:#a30d25;--ink:#14181d;--dark:#1b2129;--dark-2:#242c36;--grey:#f3f4f6;--line:#dfe3e8;--muted:#4b5563;--muted-dark:#c9d1db;--white:#fff;--radius:12px;--max:1160px}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--white)}
+h1,h2,h3{line-height:1.15;margin:0 0 .5em;font-weight:700;letter-spacing:-.01em}
+h1{font-size:clamp(1.9rem,4.6vw,3rem);font-weight:800}
+h2{font-size:clamp(1.5rem,3.4vw,2.2rem)}
+h3{font-size:1.15rem}
+p{margin:0 0 1em}
+a{color:var(--red-dark);text-underline-offset:.15em}
+a:hover{color:var(--red)}
+img{display:block;max-width:100%;height:auto}
+ul{margin:0;padding:0;list-style:none}
+.wrap{width:min(100% - 2rem,var(--max));margin-inline:auto}
+.wrap>*,.grid>*,.real>*,.hero .wrap>*,.brand>span{min-width:0}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.9rem 1.2rem;z-index:100;border-radius:0 0 var(--radius) 0}
+.skip:focus{left:0}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.7rem 1.4rem;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;transition:background .15s,color .15s}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-dark);color:#fff}
+.btn-ghost{border-color:currentColor;color:#fff;background:transparent}
+.btn-ghost:hover{background:rgba(255,255,255,.12);color:#fff}
+.btn-outline{border-color:var(--red);color:var(--red-dark);background:#fff}
+.btn-outline:hover{background:var(--red);color:#fff}
+/* en-tête */
+.site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.site-header .wrap{display:flex;align-items:center;gap:1rem;min-height:72px}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);font-weight:800;font-size:1.1rem;line-height:1.1;min-height:48px}
+.brand svg{width:48px;height:48px;flex:none}
+.brand small{display:block;font-weight:500;font-size:.78rem;color:var(--muted);white-space:nowrap}
+.menu-btn{margin-left:auto;min-width:48px;min-height:48px;border:1px solid var(--line);background:#fff;border-radius:8px;font:inherit;font-weight:600;color:var(--ink);padding:0 .8rem;cursor:pointer}
+.site-nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:.5rem 1rem 1rem}
+.site-nav.open{display:block}
+.site-nav ul{display:flex;flex-direction:column;gap:.1rem}
+.site-nav a{display:flex;align-items:center;min-height:48px;padding:0 .6rem;text-decoration:none;color:var(--ink);font-weight:600;border-radius:8px}
+.site-nav a:hover{background:var(--grey);color:var(--red-dark)}
+.site-nav .btn{margin-top:.5rem}
+.site-nav .btn-red,.site-nav .btn-red:hover{color:#fff}
+/* hero */
+.hero{background:var(--dark);color:#fff;padding:2.5rem 0 3rem}
+.hero .wrap{display:grid;gap:2rem;align-items:center}
+.hero p{color:var(--muted-dark);font-size:1.1rem;max-width:36rem}
+.kicker{display:inline-block;color:#ff8a9a;font-weight:600;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:1rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+.hero picture{display:block}
+.hero img{border-radius:var(--radius);width:100%}
+/* bandeau de preuves */
+.proof{background:var(--grey);border-bottom:1px solid var(--line)}
+.proof ul{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;padding:1.4rem 0}
+.proof li{display:flex;gap:.7rem;align-items:flex-start;font-weight:600;font-size:.95rem;line-height:1.35}
+.proof svg{flex:none;width:28px;height:28px;color:var(--red)}
+/* sections */
+section{padding:3.5rem 0}
+
+.sec-head{max-width:46rem;margin-bottom:2rem}
+.sec-head p{color:var(--muted);font-size:1.1rem}
+.dark{background:var(--dark);color:#fff}
+.dark .sec-head p,.dark p{color:var(--muted-dark)}
+.dark h2,.dark h3{color:#fff}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{display:block;position:relative;padding:1.4rem;border:1px solid var(--line);border-radius:var(--radius);background:#fff;color:var(--ink);text-decoration:none;transition:border-color .15s,box-shadow .15s}
+.card:hover{border-color:var(--red);box-shadow:0 6px 24px rgba(20,24,29,.08);color:var(--ink)}
+.card h3{margin-bottom:.35rem}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.card .more{display:inline-block;margin-top:.8rem;color:var(--red-dark);font-weight:600;font-size:.95rem}
+.card-wide{grid-column:1/-1}
+.card-wide ul{display:grid;gap:.5rem 1.5rem;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));margin:.8rem 0;color:var(--muted);font-size:.97rem}
+.card-wide li{padding-left:1.1rem;position:relative}
+.card-wide li::before{content:"";position:absolute;left:0;top:.6em;width:.5rem;height:.5rem;border-radius:50%;background:var(--red)}
+.dark .card{background:var(--dark-2);border-color:#38424f;color:#fff}
+.dark .card p,.dark .card-wide ul{color:var(--muted-dark)}
+.dark .card .more{color:#ffb3bd}
+.dark .card:hover{border-color:#ff8a9a;color:#fff}
+/* réalisations */
+.real{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.real article{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff}
+.real img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.real .body{padding:1.3rem}
+.real .place{color:var(--muted);font-size:.95rem;margin-bottom:.8rem}
+.real dl{margin:0;display:grid;gap:.5rem}
+.real dt{font-weight:700;font-size:.9rem;color:var(--red-dark);text-transform:uppercase;letter-spacing:.04em}
+.real dd{margin:0;color:var(--muted);font-size:.97rem}
+.todo{display:inline-block;background:#fff4cc;color:#5c4300;border:1px dashed #d8b23b;border-radius:6px;padding:0 .4rem;font-size:.85rem;font-weight:600}
+/* méthode */
+.steps{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));counter-reset:step}
+.steps li{position:relative;padding:1.4rem 1.4rem 1.4rem 4.2rem;border:1px solid #38424f;border-radius:var(--radius);background:var(--dark-2)}
+.steps li::before{counter-increment:step;content:counter(step);position:absolute;left:1.2rem;top:1.2rem;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--red);color:#fff;font-weight:800;display:grid;place-items:center}
+.steps h3{margin-bottom:.3rem}
+.steps p{margin:0;font-size:.97rem}
+/* faq */
+.faq{display:grid;gap:1rem;max-width:52rem}
+.faq article{border-left:4px solid var(--red);padding:.2rem 0 .2rem 1.2rem}
+.faq h3{font-size:1.1rem}
+.faq p{margin:0;color:var(--muted)}
+/* implantations */
+.agencies{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.agencies .agency{border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem;background:#fff;line-height:1.7}
+.agencies address{font-style:normal}
+.agencies h3{margin-bottom:.4rem}
+.agencies a{display:inline-flex;align-items:center;min-height:44px;font-weight:600}
+/* cta */
+.cta{background:var(--red);color:#fff;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:#ffe0e5;max-width:40rem;margin-inline:auto}
+.cta .btn-white{background:#fff;color:var(--red-dark)}
+.cta .btn-white:hover{background:#ffe0e5;color:var(--red-dark)}
+.cta .actions{display:flex;flex-wrap:wrap;justify-content:center;gap:.8rem;margin-top:1.4rem}
+/* pied de page */
+.site-footer{background:var(--ink);color:var(--muted-dark);padding:3rem 0 2rem;font-size:.95rem}
+.site-footer a{color:#fff}
+.site-footer a:hover{color:#ff8a9a}
+.foot-grid{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.site-footer h2{font-size:1rem;color:#fff;margin-bottom:.6rem}
+.site-footer li a{display:inline-flex;align-items:center;min-height:40px;text-decoration:none}
+.site-footer li a:hover{text-decoration:underline}
+.foot-legal{border-top:1px solid #38424f;margin-top:2rem;padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;justify-content:space-between;font-size:.88rem}
+.foot-legal a{display:inline-flex;align-items:center;min-height:40px}
+.privacy-note{background:#0e1115;color:var(--muted-dark);text-align:center;padding:.6rem 1rem;font-size:.82rem;margin:0}
+.privacy-note p{margin:0}
+@media (min-width:760px){
+  .proof ul{grid-template-columns:repeat(4,1fr)}
+  .hero{padding:4rem 0 4.5rem}
+}
+@media (min-width:1180px){
+  .site-nav a{padding:0 .85rem;font-size:1rem}
+}
+@media (min-width:960px){
+  .menu-btn{display:none}
+  .site-nav{display:block;position:static;border:0;padding:0;margin-left:auto;background:none}
+  .site-nav ul{flex-direction:row;align-items:center;gap:0}
+  .site-nav a{padding:0 .6rem;font-size:.98rem}
+  .site-nav .btn{margin:0 0 0 .4rem;padding:.6rem 1.1rem}
+  .hero .wrap{grid-template-columns:1.1fr 1fr;gap:3rem}
+}
+</style>
+<script src="assets/js/menu.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization",
+      "name": "ITS Travaux Spéciaux",
+      "alternateName": ["ITS", "IVEBAT", "ITS Ingénierie et Travaux Spéciaux"],
+      "legalName": "ITS Travaux Spéciaux",
+      "slogan": "Ingénierie et Travaux Spéciaux",
+      "description": "ITS Travaux Spéciaux, marque du groupe IVEBAT, est spécialisée dans la réparation, le renforcement et la prolongation de la durabilité des ouvrages en béton armé et précontraint : parkings souterrains, ouvrages d'art, immeubles de logements, sites industriels, centres commerciaux et équipements sportifs.",
+      "url": "https://fabiencollet64.github.io/its-travaux-speciaux/",
+      "logo": "https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/logo-512.png",
+      "image": "https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/hero-chantier-1200.webp",
+      "email": "contact@its-entreprise.com",
+      "telephone": "+33251469923",
+      "sameAs": ["https://www.linkedin.com/company/its-ivebat-travaux-speciaux", "https://www.its-entreprise.com/"],
+      "parentOrganization": {"@type": "Organization", "name": "IVEBAT"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 impasse Philippe-Gozola",
+        "postalCode": "85000",
+        "addressLocality": "La Roche-sur-Yon",
+        "addressCountry": "FR"
+      },
+      "areaServed": [
+        {"@type": "Country", "name": "France"},
+        {"@type": "AdministrativeArea", "name": "Île-de-France"},
+        {"@type": "AdministrativeArea", "name": "Bretagne"},
+        {"@type": "AdministrativeArea", "name": "Normandie"},
+        {"@type": "AdministrativeArea", "name": "Pays de la Loire"}
+      ],
+      "knowsAbout": [
+        "Renforcement de structures en béton",
+        "Renforcement par plat carbone",
+        "Précontrainte additionnelle et précontrainte extérieure",
+        "Béton projeté",
+        "Renforcement par profilés métalliques",
+        "Renforcement des aciers",
+        "Cuvelage",
+        "Injection de fissures",
+        "Diagnostic structurel",
+        "Vérinage",
+        "Protection cathodique",
+        "Hydrodémolition",
+        "Étaiement d'urgence",
+        "Étanchéité liquide",
+        "Étanchéité des bassins et réservoirs",
+        "Réparation d'ouvrages d'art",
+        "Réparation de parkings souterrains",
+        "Réparation du béton armé et précontraint"
+      ],
+      "department": [
+        {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#siege"},
+        {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#idf"},
+        {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#bretagne"}
+      ]
+    },
+    {
+      "@type": "GeneralContractor",
+      "@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#siege",
+      "name": "ITS Travaux Spéciaux – Siège (La Roche-sur-Yon)",
+      "parentOrganization": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"},
+      "url": "https://fabiencollet64.github.io/its-travaux-speciaux/#implantations",
+      "image": "https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/logo-512.png",
+      "telephone": "+33251469923",
+      "email": "contact@its-entreprise.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 impasse Philippe-Gozola",
+        "postalCode": "85000",
+        "addressLocality": "La Roche-sur-Yon",
+        "addressRegion": "Pays de la Loire",
+        "addressCountry": "FR"
+      },
+      "areaServed": ["Pays de la Loire", "Bretagne", "Normandie", "France"]
+    },
+    {
+      "@type": "GeneralContractor",
+      "@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#idf",
+      "name": "ITS Travaux Spéciaux – Agence Île-de-France (Pantin)",
+      "parentOrganization": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"},
+      "url": "https://fabiencollet64.github.io/its-travaux-speciaux/#implantations",
+      "image": "https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/logo-512.png",
+      "telephone": "+33164265700",
+      "email": "contact@its-entreprise.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "26 bis rue des Pommiers",
+        "postalCode": "93500",
+        "addressLocality": "Pantin",
+        "addressRegion": "Île-de-France",
+        "addressCountry": "FR"
+      },
+      "areaServed": ["Île-de-France", "Paris", "Petite couronne"]
+    },
+    {
+      "@type": "GeneralContractor",
+      "@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#bretagne",
+      "name": "ITS Travaux Spéciaux – Agence Bretagne (La Mézière)",
+      "parentOrganization": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"},
+      "url": "https://fabiencollet64.github.io/its-travaux-speciaux/#implantations",
+      "image": "https://fabiencollet64.github.io/its-travaux-speciaux/assets/img/logo-512.png",
+      "email": "contact@its-entreprise.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ZI La Montgervalaise",
+        "postalCode": "35520",
+        "addressLocality": "La Mézière",
+        "addressRegion": "Bretagne",
+        "addressCountry": "FR"
+      },
+      "areaServed": ["Bretagne", "Normandie", "Pays de la Loire"]
+    },
+    {"@type": "Service", "name": "Renforcement de structures en béton", "serviceType": "Renforcement de structures", "description": "Renforcement d'ouvrages en béton armé et précontraint par plat carbone, précontrainte additionnelle ou extérieure, béton projeté, profilés métalliques et renforcement des aciers.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/renforcement-de-structures/"},
+    {"@type": "Service", "name": "Cuvelage", "serviceType": "Cuvelage", "description": "Cuvelage des parties enterrées pour traiter les infiltrations d'eau dans les parkings souterrains et sous-sols.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/cuvelage/"},
+    {"@type": "Service", "name": "Injection", "serviceType": "Injection de fissures", "description": "Injection de résines ou de coulis pour traiter les fissures, les fuites et les vides dans les structures en béton.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/injection/"},
+    {"@type": "Service", "name": "Diagnostic structurel", "serviceType": "Diagnostic structurel", "description": "Diagnostic de l'état d'un ouvrage en béton par le bureau d'études intégré, préalable à toute réparation ou renforcement.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/diagnostic-structurel/"},
+    {"@type": "Service", "name": "Vérinage", "serviceType": "Vérinage", "description": "Levage et remise à niveau de structures par vérins.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/verinage/"},
+    {"@type": "Service", "name": "Protection cathodique", "serviceType": "Protection cathodique", "description": "Protection cathodique des armatures pour stopper la corrosion des aciers dans le béton armé.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/protection-cathodique/"},
+    {"@type": "Service", "name": "Hydrodémolition", "serviceType": "Hydrodémolition", "description": "Démolition sélective du béton dégradé par eau à très haute pression, sans vibration et sans endommager les armatures.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/hydrodemolition/"},
+    {"@type": "Service", "name": "Étaiement d'urgence", "serviceType": "Étaiement d'urgence", "description": "Mise en sécurité rapide d'un ouvrage sinistré ou fragilisé par étaiement.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etaiement-d-urgence/"},
+    {"@type": "Service", "name": "Étanchéité liquide", "serviceType": "Étanchéité liquide", "description": "Systèmes d'étanchéité liquide pour toitures, terrasses, dalles de parking et ouvrages en béton.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etancheite-liquide/"},
+    {"@type": "Service", "name": "Étanchéité des bassins et réservoirs", "serviceType": "Étanchéité des bassins et réservoirs", "description": "Étanchéité et réparation des bassins, réservoirs et ouvrages hydrauliques en béton.", "provider": {"@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#organization"}, "areaServed": {"@type": "Country", "name": "France"}, "url": "https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etancheite-bassins-reservoirs/"},
+    {
+      "@type": "FAQPage",
+      "@id": "https://fabiencollet64.github.io/its-travaux-speciaux/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle entreprise pour renforcer un ouvrage en béton précontraint ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "ITS Travaux Spéciaux, marque du groupe IVEBAT, est une entreprise spécialisée dans le renforcement des ouvrages en béton armé et précontraint. Elle met en œuvre la précontrainte additionnelle et extérieure, le plat carbone, le béton projeté et les profilés métalliques. Elle a notamment renforcé par précontrainte additionnelle les gradins du Parc des Princes et des poutres de parking par précontrainte extérieure à Puteaux."}
+        },
+        {
+          "@type": "Question",
+          "name": "Comment réparer une dalle de parking fissurée ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "La réparation commence par un diagnostic structurel pour identifier l'origine des fissures : retrait, surcharge, corrosion des armatures ou infiltration. Selon le cas, ITS Travaux Spéciaux traite les fissures par injection, remplace le béton dégradé, renforce la dalle (plat carbone, précontrainte additionnelle) et rétablit l'étanchéité. Les travaux sont réalisés sans fermer le parking, par phases, pour maintenir l'activité."}
+        },
+        {
+          "@type": "Question",
+          "name": "Intervenez-vous sur les ouvrages d'art ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Oui. ITS Travaux Spéciaux intervient sur les ouvrages d'art : ponts, passerelles, tribunes et gradins, structures précontraintes. Les techniques mobilisées sont la précontrainte additionnelle ou extérieure, le béton projeté, l'hydrodémolition, la protection cathodique, l'injection et le renforcement des aciers, avec un bureau d'études intégré pour les études d'exécution."}
+        },
+        {
+          "@type": "Question",
+          "name": "Dans quelles régions intervenez-vous ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "ITS Travaux Spéciaux dispose de trois implantations : le siège à La Roche-sur-Yon (Vendée), une agence en Île-de-France à Pantin et une agence en Bretagne à La Mézière. Ses zones principales sont l'Île-de-France (Paris et petite couronne) et le Grand Ouest (Bretagne, Normandie, Pays de la Loire). Ses équipes mobiles interviennent partout en France."}
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous intervenir sans interrompre l'activité du site ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Oui. L'intervention en site occupé fait partie de la méthode d'ITS Travaux Spéciaux : les travaux sont phasés et organisés selon une démarche Lean pour que parkings, centres commerciaux, immeubles habités ou sites industriels restent en exploitation pendant le chantier."}
+        },
+        {
+          "@type": "Question",
+          "name": "Que faire en cas d'ouvrage sinistré ou de béton dégradé par le feu ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Il faut d'abord sécuriser la structure. ITS Travaux Spéciaux réalise des étaiements d'urgence, puis un diagnostic structurel pour évaluer l'état du béton et des aciers après l'incendie ou le sinistre. Le bureau d'études intégré définit ensuite la réparation : purge par hydrodémolition, reconstitution en béton projeté, renforcement des aciers ou renforcement de la structure."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect width="48" height="48" rx="8" fill="#c8102e"/><text x="24" y="31" text-anchor="middle" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="19" fill="#fff">ITS</text></svg>
+      <span>ITS Travaux Spéciaux<small>Ingénierie et Travaux Spéciaux</small></span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="site-nav" id="menu" aria-label="Navigation principale">
+      <ul>
+        <li><a href="#expertises">Expertises</a></li>
+        <li><a href="#pathologies">Pathologies</a></li>
+        <li><a href="#ouvrages">Ouvrages</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="recrutement/">Recrutement</a></li>
+        <li><a href="contact/">Contact</a></li>
+        <li><a class="btn btn-red" href="contact/">Demander un diagnostic</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <section class="hero" aria-labelledby="titre-principal">
+    <div class="wrap">
+      <div>
+        <span class="kicker">Ingénierie et Travaux Spéciaux · Marque IVEBAT</span>
+        <h1 id="titre-principal">ITS Travaux Spéciaux, spécialiste de la réparation et du renforcement des ouvrages en béton</h1>
+        <p>Réparation, renforcement et prolongation de la durabilité des ouvrages en béton armé et précontraint. Agences en Île-de-France (Paris et petite couronne) et dans le Grand Ouest (Bretagne, Normandie, Pays de la Loire), équipes mobiles partout en France.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="contact/">Demander un diagnostic</a>
+          <a class="btn btn-ghost" href="#realisations">Voir nos réalisations</a>
+        </div>
+      </div>
+      <picture>
+        <source type="image/avif" srcset="assets/img/hero-chantier-480.avif 480w, assets/img/hero-chantier-800.avif 800w, assets/img/hero-chantier-1200.avif 1200w, assets/img/hero-chantier-1600.avif 1600w" sizes="(min-width: 960px) 50vw, 100vw">
+        <img src="assets/img/hero-chantier-800.webp" srcset="assets/img/hero-chantier-480.webp 480w, assets/img/hero-chantier-800.webp 800w, assets/img/hero-chantier-1200.webp 1200w, assets/img/hero-chantier-1600.webp 1600w" sizes="(min-width: 960px) 50vw, 100vw" width="800" height="450" alt="Chantier de renforcement d'une structure en béton par ITS Travaux Spéciaux" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+  </section>
+
+  <section class="proof" aria-label="Nos atouts">
+    <ul class="wrap">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M8 12h8M8 8h8M8 16h5"/></svg>Bureau d'études intégré</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h2a2 2 0 0 0 4 0h6a2 2 0 0 0 4 0h2v-5l-3-4h-4V6H3z"/></svg>Équipes mobiles partout en France</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>Intervention en site occupé, sans arrêt d'activité</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>3 implantations : La Roche-sur-Yon, Pantin, La Mézière</li>
+    </ul>
+  </section>
+
+  <section id="pathologies" aria-labelledby="titre-pathologies">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-pathologies">Quel est votre problème ?</h2>
+        <p>Chaque pathologie du béton appelle un diagnostic et une réponse technique adaptée. Choisissez la vôtre pour voir comment nous la traitons.</p>
+      </div>
+      <div class="grid">
+        <a class="card" href="pathologies/fissures/"><h3>Fissures</h3><p>Fissures de dalles, poutres, voiles ou poteaux : recherche de la cause, injection et renforcement si nécessaire.</p><span class="more">Traiter des fissures</span></a>
+        <a class="card" href="pathologies/beton-degrade/"><h3>Béton dégradé</h3><p>Éclats, épaufrures, béton carbonaté ou désagrégé : purge, hydrodémolition et reconstitution en béton projeté.</p><span class="more">Réparer un béton dégradé</span></a>
+        <a class="card" href="pathologies/infiltrations-et-fuites/"><h3>Infiltrations et fuites</h3><p>Venues d'eau dans les sous-sols, parkings, bassins et réservoirs : injection, cuvelage et étanchéité liquide.</p><span class="more">Stopper des infiltrations</span></a>
+        <a class="card" href="pathologies/corrosion/"><h3>Corrosion des armatures</h3><p>Aciers corrodés et béton éclaté : renforcement des aciers, protection cathodique et réparation durable.</p><span class="more">Traiter la corrosion</span></a>
+        <a class="card" href="pathologies/ouvrage-sinistre/"><h3>Ouvrage sinistré</h3><p>Choc, affaissement ou désordre structurel : étaiement d'urgence, diagnostic puis réparation et renforcement.</p><span class="more">Sécuriser un ouvrage</span></a>
+        <a class="card" href="pathologies/sinistre-incendie/"><h3>Sinistre incendie</h3><p>Béton et aciers fragilisés par le feu : mise en sécurité, diagnostic structurel et reconstitution de la structure.</p><span class="more">Réparer après un incendie</span></a>
+        <a class="card" href="pathologies/agressions-chimiques/"><h3>Agressions chimiques</h3><p>Bétons attaqués en milieu industriel ou agricole : réparation, protection et étanchéité des ouvrages.</p><span class="more">Protéger un béton exposé</span></a>
+        <a class="card" href="pathologies/changement-de-destination/"><h3>Changement de destination</h3><p>Nouvelles charges, nouveaux usages : renforcement de la structure par plat carbone, précontrainte ou profilés métalliques.</p><span class="more">Renforcer pour un nouvel usage</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ouvrages" class="dark" aria-labelledby="titre-ouvrages">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-ouvrages">Quel est votre ouvrage ?</h2>
+        <p>Nous intervenons sur tous les types d'ouvrages en béton armé et précontraint, en site occupé et sans interrompre l'activité.</p>
+      </div>
+      <div class="grid">
+        <a class="card card-wide" href="ouvrages/ouvrages-d-art/">
+          <h3>Ouvrages d'art : ponts, passerelles, tribunes, structures précontraintes</h3>
+          <p>ITS Travaux Spéciaux répare et renforce les ouvrages d'art en béton armé et précontraint. Notre bureau d'études intégré réalise le diagnostic structurel et les études d'exécution, puis nos équipes mobiles interviennent partout en France.</p>
+          <ul>
+            <li>Ponts et passerelles : réparation des bétons, renforcement des poutres et tabliers</li>
+            <li>Tribunes et gradins de stades : précontrainte additionnelle (référence : Parc des Princes)</li>
+            <li>Structures précontraintes : précontrainte extérieure, plat carbone, profilés métalliques</li>
+            <li>Traitement de la corrosion : protection cathodique, renforcement des aciers</li>
+            <li>Purge et reconstitution : hydrodémolition, béton projeté, injection</li>
+            <li>Mise en sécurité : étaiement d'urgence, vérinage</li>
+          </ul>
+          <span class="more">Nos solutions pour les ouvrages d'art</span>
+        </a>
+        <a class="card" href="ouvrages/parkings-souterrains/"><h3>Parkings souterrains</h3><p>Dalles fissurées, infiltrations, poutres à renforcer : travaux phasés, parking maintenu en exploitation.</p><span class="more">Parkings souterrains</span></a>
+        <a class="card" href="ouvrages/immeubles-de-logements/"><h3>Immeubles de logements</h3><p>Réparation des balcons, dalles et structures, intervention en immeuble habité.</p><span class="more">Immeubles de logements</span></a>
+        <a class="card" href="ouvrages/sites-industriels/"><h3>Sites industriels</h3><p>Bétons soumis aux agressions chimiques et aux fortes charges, interventions sans arrêt de production.</p><span class="more">Sites industriels</span></a>
+        <a class="card" href="ouvrages/centres-commerciaux/"><h3>Centres commerciaux</h3><p>Renforcement de poutres et de dalles pendant l'exploitation du centre, comme pour une poutre de 50 mètres à Paris.</p><span class="more">Centres commerciaux</span></a>
+        <a class="card" href="ouvrages/equipements-sportifs/"><h3>Équipements sportifs</h3><p>Tribunes, gradins et bassins : renforcement par précontrainte additionnelle et étanchéité.</p><span class="more">Équipements sportifs</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertises" aria-labelledby="titre-expertises">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-expertises">Nos expertises</h2>
+        <p>Des techniques de travaux spéciaux maîtrisées en interne, du diagnostic à la réception, avec un bureau d'études intégré et une démarche Lean sur chaque chantier.</p>
+      </div>
+      <div class="grid">
+        <a class="card" href="expertises/renforcement-de-structures/"><h3>Renforcement de structures</h3><p>Plat carbone, précontrainte additionnelle et extérieure, béton projeté, profilés métalliques, renforcement des aciers.</p></a>
+        <a class="card" href="expertises/cuvelage/"><h3>Cuvelage</h3><p>Traitement des parties enterrées contre les venues d'eau.</p></a>
+        <a class="card" href="expertises/injection/"><h3>Injection</h3><p>Injection de résines ou de coulis dans les fissures, vides et fuites.</p></a>
+        <a class="card" href="expertises/diagnostic-structurel/"><h3>Diagnostic structurel</h3><p>Relevés, sondages et analyse de l'état de l'ouvrage par notre bureau d'études.</p></a>
+        <a class="card" href="expertises/verinage/"><h3>Vérinage</h3><p>Levage et remise à niveau de structures par vérins.</p></a>
+        <a class="card" href="expertises/protection-cathodique/"><h3>Protection cathodique</h3><p>Arrêt de la corrosion des armatures dans le béton armé.</p></a>
+        <a class="card" href="expertises/hydrodemolition/"><h3>Hydrodémolition</h3><p>Purge du béton dégradé à l'eau très haute pression, sans vibration.</p></a>
+        <a class="card" href="expertises/etaiement-d-urgence/"><h3>Étaiement d'urgence</h3><p>Mise en sécurité rapide des ouvrages fragilisés ou sinistrés.</p></a>
+        <a class="card" href="expertises/etancheite-liquide/"><h3>Étanchéité liquide</h3><p>Systèmes d'étanchéité liquide pour dalles, terrasses et toitures.</p></a>
+        <a class="card" href="expertises/etancheite-bassins-reservoirs/"><h3>Étanchéité des bassins et réservoirs</h3><p>Réparation et étanchéité des ouvrages hydrauliques en béton.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="realisations" class="dark" aria-labelledby="titre-realisations">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-realisations">Réalisations récentes</h2>
+        <p>Trois chantiers représentatifs de notre savoir-faire en renforcement d'ouvrages en béton précontraint.</p>
+      </div>
+      <div class="real">
+        <article>
+          <picture>
+            <source type="image/avif" srcset="assets/img/parc-des-princes-400.avif 400w, assets/img/parc-des-princes-800.avif 800w" sizes="(min-width: 960px) 360px, 100vw">
+            <img src="assets/img/parc-des-princes-400.webp" srcset="assets/img/parc-des-princes-400.webp 400w, assets/img/parc-des-princes-800.webp 800w" sizes="(min-width: 960px) 360px, 100vw" width="400" height="300" loading="lazy" decoding="async" alt="Gradins du Parc des Princes, chantier de renforcement par précontrainte additionnelle">
+          </picture>
+          <div class="body">
+            <h3>Gradins du Parc des Princes</h3>
+            <p class="place">Paris · Équipement sportif</p>
+            <dl>
+              <dt>Problème</dt><dd>Gradins en béton à renforcer pour garantir leur capacité portante et leur durabilité. <span class="todo">[À COMPLÉTER : contexte et date]</span></dd>
+              <dt>Solution</dt><dd>Renforcement par précontrainte additionnelle des gradins, études réalisées par notre bureau d'études intégré.</dd>
+            </dl>
+          </div>
+        </article>
+        <article>
+          <picture>
+            <source type="image/avif" srcset="assets/img/parking-lorilleux-400.avif 400w, assets/img/parking-lorilleux-800.avif 800w" sizes="(min-width: 960px) 360px, 100vw">
+            <img src="assets/img/parking-lorilleux-400.webp" srcset="assets/img/parking-lorilleux-400.webp 400w, assets/img/parking-lorilleux-800.webp 800w" sizes="(min-width: 960px) 360px, 100vw" width="400" height="300" loading="lazy" decoding="async" alt="Poutres du parking Charles Lorilleux à Puteaux renforcées par précontrainte extérieure">
+          </picture>
+          <div class="body">
+            <h3>Parking Charles Lorilleux</h3>
+            <p class="place">Puteaux (Hauts-de-Seine) · Parking</p>
+            <dl>
+              <dt>Problème</dt><dd>Poutres du parking à renforcer, avec maintien de l'exploitation pendant les travaux. <span class="todo">[À COMPLÉTER : contexte et date]</span></dd>
+              <dt>Solution</dt><dd>Renforcement des poutres par précontrainte extérieure.</dd>
+            </dl>
+          </div>
+        </article>
+        <article>
+          <picture>
+            <source type="image/avif" srcset="assets/img/centre-commercial-400.avif 400w, assets/img/centre-commercial-800.avif 800w" sizes="(min-width: 960px) 360px, 100vw">
+            <img src="assets/img/centre-commercial-400.webp" srcset="assets/img/centre-commercial-400.webp 400w, assets/img/centre-commercial-800.webp 800w" sizes="(min-width: 960px) 360px, 100vw" width="400" height="300" loading="lazy" decoding="async" alt="Renforcement d'une poutre de 50 mètres dans un centre commercial à Paris">
+          </picture>
+          <div class="body">
+            <h3>Poutre de 50 mètres en centre commercial</h3>
+            <p class="place">Paris · Centre commercial</p>
+            <dl>
+              <dt>Problème</dt><dd>Poutre de 50 mètres de portée à renforcer sans interrompre l'activité commerciale. <span class="todo">[À COMPLÉTER : contexte et date]</span></dd>
+              <dt>Solution</dt><dd>Renforcement de la poutre par nos équipes, travaux phasés en site occupé. <span class="todo">[À COMPLÉTER : technique]</span></dd>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="methode" class="dark" aria-labelledby="titre-methode" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-methode">Notre méthode</h2>
+        <p>Une démarche Lean en quatre étapes, pilotée par notre bureau d'études intégré.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Diagnostic</h3><p>Visite, relevés et diagnostic structurel pour identifier l'origine des désordres.</p></li>
+        <li><h3>Études</h3><p>Dimensionnement et études d'exécution par le bureau d'études intégré, choix de la technique adaptée.</p></li>
+        <li><h3>Travaux</h3><p>Réalisation par nos équipes mobiles, phasage en site occupé pour préserver l'activité.</p></li>
+        <li><h3>Contrôle</h3><p>Contrôles en cours de chantier, réception et suivi de la durabilité de l'ouvrage.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="titre-faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-faq">Questions fréquentes</h2>
+        <p>Les réponses d'ITS Travaux Spéciaux aux questions que se posent maîtres d'ouvrage, syndics, gestionnaires et bureaux d'études.</p>
+      </div>
+      <div class="faq">
+        <article>
+          <h3>Quelle entreprise pour renforcer un ouvrage en béton précontraint ?</h3>
+          <p>ITS Travaux Spéciaux, marque du groupe IVEBAT, est une entreprise spécialisée dans le renforcement des ouvrages en béton armé et précontraint. Elle met en œuvre la précontrainte additionnelle et extérieure, le plat carbone, le béton projeté et les profilés métalliques. Elle a notamment renforcé par précontrainte additionnelle les gradins du Parc des Princes et des poutres de parking par précontrainte extérieure à Puteaux.</p>
+        </article>
+        <article>
+          <h3>Comment réparer une dalle de parking fissurée ?</h3>
+          <p>La réparation commence par un diagnostic structurel pour identifier l'origine des fissures : retrait, surcharge, corrosion des armatures ou infiltration. Selon le cas, ITS Travaux Spéciaux traite les fissures par injection, remplace le béton dégradé, renforce la dalle (plat carbone, précontrainte additionnelle) et rétablit l'étanchéité. Les travaux sont réalisés sans fermer le parking, par phases, pour maintenir l'activité.</p>
+        </article>
+        <article>
+          <h3>Intervenez-vous sur les ouvrages d'art ?</h3>
+          <p>Oui. ITS Travaux Spéciaux intervient sur les ouvrages d'art : ponts, passerelles, tribunes et gradins, structures précontraintes. Les techniques mobilisées sont la précontrainte additionnelle ou extérieure, le béton projeté, l'hydrodémolition, la protection cathodique, l'injection et le renforcement des aciers, avec un bureau d'études intégré pour les études d'exécution.</p>
+        </article>
+        <article>
+          <h3>Dans quelles régions intervenez-vous ?</h3>
+          <p>ITS Travaux Spéciaux dispose de trois implantations : le siège à La Roche-sur-Yon (Vendée), une agence en Île-de-France à Pantin et une agence en Bretagne à La Mézière. Ses zones principales sont l'Île-de-France (Paris et petite couronne) et le Grand Ouest (Bretagne, Normandie, Pays de la Loire). Ses équipes mobiles interviennent partout en France.</p>
+        </article>
+        <article>
+          <h3>Pouvez-vous intervenir sans interrompre l'activité du site ?</h3>
+          <p>Oui. L'intervention en site occupé fait partie de la méthode d'ITS Travaux Spéciaux : les travaux sont phasés et organisés selon une démarche Lean pour que parkings, centres commerciaux, immeubles habités ou sites industriels restent en exploitation pendant le chantier.</p>
+        </article>
+        <article>
+          <h3>Que faire en cas d'ouvrage sinistré ou de béton dégradé par le feu ?</h3>
+          <p>Il faut d'abord sécuriser la structure. ITS Travaux Spéciaux réalise des étaiements d'urgence, puis un diagnostic structurel pour évaluer l'état du béton et des aciers après l'incendie ou le sinistre. Le bureau d'études intégré définit ensuite la réparation : purge par hydrodémolition, reconstitution en béton projeté, renforcement des aciers ou renforcement de la structure.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="implantations" aria-labelledby="titre-implantations" style="background:var(--grey)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="titre-implantations">Nos implantations</h2>
+        <p>Trois agences, des équipes mobiles qui interviennent partout en France.</p>
+      </div>
+      <div class="agencies">
+        <div class="agency">
+          <h3>Siège – La Roche-sur-Yon</h3>
+          <address>14 impasse Philippe-Gozola<br>85000 La Roche-sur-Yon<br>
+          <a href="tel:+33251469923">02 51 46 99 23</a></address>
+        </div>
+        <div class="agency">
+          <h3>Agence Île-de-France – Pantin</h3>
+          <address>26 bis rue des Pommiers<br>93500 Pantin<br>
+          <a href="tel:+33164265700">01 64 26 57 00</a></address>
+        </div>
+        <div class="agency">
+          <h3>Agence Bretagne – La Mézière</h3>
+          <address>ZI La Montgervalaise<br>35520 La Mézière<br>
+          <span class="todo">[À COMPLÉTER : téléphone]</span></address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="titre-cta">
+    <div class="wrap">
+      <h2 id="titre-cta">Un ouvrage en béton à réparer ou à renforcer ?</h2>
+      <p>Décrivez-nous votre ouvrage et ses désordres : notre bureau d'études vous propose un diagnostic et une solution adaptée.</p>
+      <div class="actions">
+        <a class="btn btn-white" href="contact/">Demander un diagnostic</a>
+        <a class="btn btn-ghost" href="mailto:contact@its-entreprise.com">contact@its-entreprise.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h2>ITS Travaux Spéciaux</h2>
+        <p>Ingénierie et Travaux Spéciaux, groupe IVEBAT. Réparation, renforcement et prolongation de la durabilité des ouvrages en béton armé et précontraint.</p>
+        <p><a href="mailto:contact@its-entreprise.com">contact@its-entreprise.com</a><br><a href="https://www.linkedin.com/company/its-ivebat-travaux-speciaux" rel="noopener">ITS sur LinkedIn</a></p>
+      </div>
+      <nav aria-label="Pied de page : expertises">
+        <h2>Expertises</h2>
+        <ul>
+          <li><a href="expertises/renforcement-de-structures/">Renforcement de structures</a></li>
+          <li><a href="expertises/cuvelage/">Cuvelage</a></li>
+          <li><a href="expertises/injection/">Injection</a></li>
+          <li><a href="expertises/diagnostic-structurel/">Diagnostic structurel</a></li>
+          <li><a href="expertises/protection-cathodique/">Protection cathodique</a></li>
+          <li><a href="expertises/etancheite-bassins-reservoirs/">Étanchéité des bassins et réservoirs</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Pied de page : ouvrages">
+        <h2>Ouvrages</h2>
+        <ul>
+          <li><a href="ouvrages/ouvrages-d-art/">Ouvrages d'art</a></li>
+          <li><a href="ouvrages/parkings-souterrains/">Parkings souterrains</a></li>
+          <li><a href="ouvrages/immeubles-de-logements/">Immeubles de logements</a></li>
+          <li><a href="ouvrages/sites-industriels/">Sites industriels</a></li>
+          <li><a href="ouvrages/centres-commerciaux/">Centres commerciaux</a></li>
+          <li><a href="ouvrages/equipements-sportifs/">Équipements sportifs</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Pied de page : entreprise">
+        <h2>Entreprise</h2>
+        <ul>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#implantations">Implantations</a></li>
+          <li><a href="recrutement/">Recrutement</a></li>
+          <li><a href="contact/">Contact</a></li>
+          <li><a href="mentions-legales/">Mentions légales</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot-legal">
+      <span>© 2026 ITS Travaux Spéciaux – IVEBAT. Siège : 14 impasse Philippe-Gozola, 85000 La Roche-sur-Yon.</span>
+      <span>Maquette de démonstration réalisée par <a href="mentions-legales/#maquette">Collet Marketing</a></span>
+    </div>
+  </div>
+</footer>
+
+<aside class="privacy-note" aria-label="Information sur les cookies"><p>Ce site n'utilise aucun cookie ni traceur : aucun bandeau de consentement ne recouvre la page. Emplacement réservé en bas de page si des traceurs étaient ajoutés.</p></aside>
+
+</body>
+</html>

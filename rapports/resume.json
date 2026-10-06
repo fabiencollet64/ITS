@@ -1,0 +1,40 @@
+[
+  {
+    "mode": "mobile",
+    "lighthouse": "13.5.0",
+    "url": "http://127.0.0.1:8080/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metriques": {
+      "FCP": "0.7 s",
+      "LCP": "0.9 s",
+      "CLS": "0",
+      "TBT": "0 ms",
+      "SpeedIndex": "0.7 s"
+    }
+  },
+  {
+    "mode": "bureau",
+    "lighthouse": "13.5.0",
+    "url": "http://127.0.0.1:8080/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metriques": {
+      "FCP": "0.2 s",
+      "LCP": "0.3 s",
+      "CLS": "0",
+      "TBT": "0 ms",
+      "SpeedIndex": "0.2 s"
+    }
+  }
+]

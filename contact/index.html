@@ -8,10 +8,17 @@
 <link rel="canonical" href="https://fabiencollet64.github.io/ITS/contact/">
 <meta name="theme-color" content="#141a21">
 <link rel="icon" href="../assets/img/favicon.png" type="image/png" sizes="64x64">
+<link rel="preload" href="../assets/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/barlow-sc-700.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+@font-face{font-family:Barlow;font-style:normal;font-weight:400;font-display:swap;src:url(../assets/fonts/barlow-400.woff2) format("woff2")}
+@font-face{font-family:Barlow;font-style:normal;font-weight:600;font-display:swap;src:url(../assets/fonts/barlow-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Semi Condensed";font-style:normal;font-weight:700;font-display:swap;src:url(../assets/fonts/barlow-sc-700.woff2) format("woff2")}
+@font-face{font-family:"Barlow Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:96.9%;ascent-override:103.2%;descent-override:20.6%;line-gap-override:0%}
+@font-face{font-family:"Barlow SC Fallback";src:local("Arial Bold"),local("Arial"),local("Liberation Sans Bold");size-adjust:84.6%;ascent-override:118.2%;descent-override:23.6%;line-gap-override:0%}
 :root{--red:#c8102e;--red-dark:#a30d25;--ink:#14181d;--dark:#1b2129;--grey:#f3f4f6;--line:#dfe3e8;--muted:#4b5563}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1.0625rem;line-height:1.6;color:var(--ink);background:#fff}
+body{margin:0;font-family:Barlow,"Barlow Fallback",Arial,sans-serif;font-size:1.1rem;line-height:1.6;color:var(--ink);background:#fff}
 .wrap{width:min(100% - 2rem,760px);margin-inline:auto}
 .skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.9rem 1.2rem}
 .skip:focus{left:0}
@@ -22,7 +29,8 @@ header .wrap{display:flex;align-items:center;gap:1rem;min-height:72px;flex-wrap:
 header nav a{display:inline-flex;align-items:center;min-height:48px;padding:0 .7rem;color:var(--ink);font-weight:600;text-decoration:none}
 header nav a:hover{color:var(--red-dark)}
 main{padding:2.5rem 0 3rem}
-h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:0 0 1rem}
+h1,h2{font-family:"Barlow Semi Condensed","Barlow SC Fallback",Arial,sans-serif;line-height:1.1}
+h1{font-size:clamp(2rem,4.6vw,2.8rem);margin:0 0 1rem}
 .crumb{color:var(--muted);font-size:.95rem;margin-bottom:1rem}
 .crumb a{color:var(--red-dark)}
 .todo{border:1px dashed #d8b23b;background:#fff4cc;color:#5c4300;border-radius:8px;padding:1rem 1.2rem;margin:1.5rem 0}

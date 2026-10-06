@@ -16,7 +16,7 @@ génération : quota dépassé). « Après » : Lighthouse 13.5 en local sur la 
 | Bonnes pratiques | non fourni | 100 |
 | SEO | non fourni | 100 |
 | Navigation agentique | 0/2 | 2/2 (3/3 avec llms.txt à la racine du domaine) |
-| LCP | 6,2 s | 0,9 s |
+| LCP | 6,2 s | 1,2 s |
 | CLS | 0,246 | 0 |
 | TBT | non fourni | 0 ms |
 | FCP | non fourni | 0,7 s |

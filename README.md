@@ -14,7 +14,7 @@ Site de référence : https://www.its-entreprise.com/
 | `index.html` | Page d'accueil : HTML sémantique, CSS critique en ligne, JSON-LD (Organization, 3 × GeneralContractor, Service, FAQPage) |
 | `assets/img/` | Images AVIF + WebP en plusieurs largeurs (`srcset`), logo provisoire |
 | `assets/js/menu.js` | Seul script du site (menu mobile), chargé en `defer` |
-| `assets/fonts/` | Police Inter (woff2, sous-ensemble latin) conservée en option, non utilisée par défaut |
+| `assets/fonts/` | Police Barlow (400, 600) et Barlow Semi Condensed (700), woff2 sous-ensemblées (≈ 12 Ko chacune), auto-hébergées, `font-display: swap` avec police de repli aux métriques ajustées (pas de décalage de mise en page) |
 | `llms.txt` | Résumé de l'entreprise pour les IA (expertises, zones, pages clés) |
 | `robots.txt` | Autorise GPTBot, ClaudeBot, PerplexityBot, Google-Extended… et déclare le sitemap |
 | `sitemap.xml` | Plan du site |
@@ -43,9 +43,10 @@ Site de référence : https://www.its-entreprise.com/
   SIAH, SIAV, Icade, Unibail-Rodamco-Westfield, Airbus).
 - **Blocs [À COMPLÉTER]** : contexte et date des réalisations, téléphone de
   l'agence de La Mézière, contenu des pages secondaires.
-- **Police** : la maquette utilise la pile de polices système (LCP mobile
-  simulé 0,9 s). Inter est fournie dans `assets/fonts/` ; l'activer ajoute
-  environ 0,3 s au LCP simulé.
+- **Police** : Barlow (inspirée des caractères DIN des plans et de la
+  signalétique industrielle), choisie pour se démarquer des polices système et
+  des polices « par défaut » des sites générés. Les fichiers sont dans
+  `assets/fonts/` et déclarés en tête de `index.html`.
 
 ## Déploiement
 

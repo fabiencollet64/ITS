@@ -19,36 +19,36 @@ Noms utilisés : ITS Travaux Spéciaux, ITS, IVEBAT, ITS Ingénierie et Travaux 
 
 ## Expertises
 
-- [Renforcement de structures](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/renforcement-de-structures/): Plat carbone, précontrainte additionnelle et extérieure, béton projeté, profilés métalliques, renforcement des aciers.
-- [Cuvelage](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/cuvelage/): Traitement des parties enterrées contre les venues d'eau.
-- [Injection](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/injection/): Injection de résines ou de coulis dans les fissures, vides et fuites.
-- [Diagnostic structurel](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/diagnostic-structurel/): Relevés, sondages et analyse de l'état de l'ouvrage par notre bureau d'études intégré.
-- [Vérinage](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/verinage/): Levage et remise à niveau de structures par vérins.
-- [Protection cathodique](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/protection-cathodique/): Arrêt de la corrosion des armatures dans le béton armé.
-- [Hydrodémolition](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/hydrodemolition/): Purge du béton dégradé à l'eau très haute pression, sans vibration.
-- [Étaiement d'urgence](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etaiement-d-urgence/): Mise en sécurité rapide des ouvrages fragilisés ou sinistrés.
-- [Étanchéité liquide](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etancheite-liquide/): Systèmes d'étanchéité liquide pour dalles, terrasses et toitures.
-- [Étanchéité des bassins et réservoirs](https://fabiencollet64.github.io/its-travaux-speciaux/expertises/etancheite-bassins-reservoirs/): Réparation et étanchéité des ouvrages hydrauliques en béton.
+- [Renforcement de structures](https://fabiencollet64.github.io/ITS/expertises/renforcement-de-structures/): Plat carbone, précontrainte additionnelle et extérieure, béton projeté, profilés métalliques, renforcement des aciers.
+- [Cuvelage](https://fabiencollet64.github.io/ITS/expertises/cuvelage/): Traitement des parties enterrées contre les venues d'eau.
+- [Injection](https://fabiencollet64.github.io/ITS/expertises/injection/): Injection de résines ou de coulis dans les fissures, vides et fuites.
+- [Diagnostic structurel](https://fabiencollet64.github.io/ITS/expertises/diagnostic-structurel/): Relevés, sondages et analyse de l'état de l'ouvrage par notre bureau d'études intégré.
+- [Vérinage](https://fabiencollet64.github.io/ITS/expertises/verinage/): Levage et remise à niveau de structures par vérins.
+- [Protection cathodique](https://fabiencollet64.github.io/ITS/expertises/protection-cathodique/): Arrêt de la corrosion des armatures dans le béton armé.
+- [Hydrodémolition](https://fabiencollet64.github.io/ITS/expertises/hydrodemolition/): Purge du béton dégradé à l'eau très haute pression, sans vibration.
+- [Étaiement d'urgence](https://fabiencollet64.github.io/ITS/expertises/etaiement-d-urgence/): Mise en sécurité rapide des ouvrages fragilisés ou sinistrés.
+- [Étanchéité liquide](https://fabiencollet64.github.io/ITS/expertises/etancheite-liquide/): Systèmes d'étanchéité liquide pour dalles, terrasses et toitures.
+- [Étanchéité des bassins et réservoirs](https://fabiencollet64.github.io/ITS/expertises/etancheite-bassins-reservoirs/): Réparation et étanchéité des ouvrages hydrauliques en béton.
 
 ## Pathologies traitées
 
-- [Fissures](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/fissures/): Fissures de dalles, poutres, voiles ou poteaux : recherche de la cause, injection et renforcement si nécessaire.
-- [Béton dégradé](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/beton-degrade/): Éclats, épaufrures, béton carbonaté ou désagrégé : purge, hydrodémolition et reconstitution en béton projeté.
-- [Infiltrations et fuites](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/infiltrations-et-fuites/): Venues d'eau dans les sous-sols, parkings, bassins et réservoirs : injection, cuvelage et étanchéité liquide.
-- [Corrosion des armatures](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/corrosion/): Aciers corrodés et béton éclaté : renforcement des aciers, protection cathodique et réparation durable.
-- [Ouvrage sinistré](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/ouvrage-sinistre/): Choc, affaissement ou désordre structurel : étaiement d'urgence, diagnostic puis réparation et renforcement.
-- [Sinistre incendie](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/sinistre-incendie/): Béton et aciers fragilisés par le feu : mise en sécurité, diagnostic structurel et reconstitution de la structure.
-- [Agressions chimiques](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/agressions-chimiques/): Bétons attaqués en milieu industriel ou agricole : réparation, protection et étanchéité des ouvrages.
-- [Changement de destination](https://fabiencollet64.github.io/its-travaux-speciaux/pathologies/changement-de-destination/): Nouvelles charges, nouveaux usages : renforcement de la structure par plat carbone, précontrainte ou profilés métalliques.
+- [Fissures](https://fabiencollet64.github.io/ITS/pathologies/fissures/): Fissures de dalles, poutres, voiles ou poteaux : recherche de la cause, injection et renforcement si nécessaire.
+- [Béton dégradé](https://fabiencollet64.github.io/ITS/pathologies/beton-degrade/): Éclats, épaufrures, béton carbonaté ou désagrégé : purge, hydrodémolition et reconstitution en béton projeté.
+- [Infiltrations et fuites](https://fabiencollet64.github.io/ITS/pathologies/infiltrations-et-fuites/): Venues d'eau dans les sous-sols, parkings, bassins et réservoirs : injection, cuvelage et étanchéité liquide.
+- [Corrosion des armatures](https://fabiencollet64.github.io/ITS/pathologies/corrosion/): Aciers corrodés et béton éclaté : renforcement des aciers, protection cathodique et réparation durable.
+- [Ouvrage sinistré](https://fabiencollet64.github.io/ITS/pathologies/ouvrage-sinistre/): Choc, affaissement ou désordre structurel : étaiement d'urgence, diagnostic puis réparation et renforcement.
+- [Sinistre incendie](https://fabiencollet64.github.io/ITS/pathologies/sinistre-incendie/): Béton et aciers fragilisés par le feu : mise en sécurité, diagnostic structurel et reconstitution de la structure.
+- [Agressions chimiques](https://fabiencollet64.github.io/ITS/pathologies/agressions-chimiques/): Bétons attaqués en milieu industriel ou agricole : réparation, protection et étanchéité des ouvrages.
+- [Changement de destination](https://fabiencollet64.github.io/ITS/pathologies/changement-de-destination/): Nouvelles charges, nouveaux usages : renforcement de la structure par plat carbone, précontrainte ou profilés métalliques.
 
 ## Types d'ouvrages
 
-- [Ouvrages d'art : ponts, passerelles, tribunes, structures précontraintes](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/ouvrages-d-art/): ITS Travaux Spéciaux répare et renforce les ouvrages d'art en béton armé et précontraint : réparation des bétons, précontrainte additionnelle ou extérieure, plat carbone, béton projeté, hydrodémolition, protection cathodique, étaiement d'urgence et vérinage. Référence : renforcement par précontrainte additionnelle des gradins du Parc des Princes.
-- [Parkings souterrains](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/parkings-souterrains/): Dalles fissurées, infiltrations, poutres à renforcer : travaux phasés, parking maintenu en exploitation. Référence : renforcement de poutres par précontrainte extérieure au parking Charles Lorilleux à Puteaux.
-- [Immeubles de logements](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/immeubles-de-logements/): Réparation des balcons, dalles et structures, intervention en immeuble habité.
-- [Sites industriels](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/sites-industriels/): Bétons soumis aux agressions chimiques et aux fortes charges, interventions sans arrêt de production.
-- [Centres commerciaux](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/centres-commerciaux/): Renforcement de poutres et de dalles pendant l'exploitation du centre. Référence : renforcement d'une poutre de 50 mètres dans un centre commercial à Paris.
-- [Équipements sportifs](https://fabiencollet64.github.io/its-travaux-speciaux/ouvrages/equipements-sportifs/): Tribunes, gradins et bassins : renforcement par précontrainte additionnelle et étanchéité.
+- [Ouvrages d'art : ponts, passerelles, tribunes, structures précontraintes](https://fabiencollet64.github.io/ITS/ouvrages/ouvrages-d-art/): ITS Travaux Spéciaux répare et renforce les ouvrages d'art en béton armé et précontraint : réparation des bétons, précontrainte additionnelle ou extérieure, plat carbone, béton projeté, hydrodémolition, protection cathodique, étaiement d'urgence et vérinage. Référence : renforcement par précontrainte additionnelle des gradins du Parc des Princes.
+- [Parkings souterrains](https://fabiencollet64.github.io/ITS/ouvrages/parkings-souterrains/): Dalles fissurées, infiltrations, poutres à renforcer : travaux phasés, parking maintenu en exploitation. Référence : renforcement de poutres par précontrainte extérieure au parking Charles Lorilleux à Puteaux.
+- [Immeubles de logements](https://fabiencollet64.github.io/ITS/ouvrages/immeubles-de-logements/): Réparation des balcons, dalles et structures, intervention en immeuble habité.
+- [Sites industriels](https://fabiencollet64.github.io/ITS/ouvrages/sites-industriels/): Bétons soumis aux agressions chimiques et aux fortes charges, interventions sans arrêt de production.
+- [Centres commerciaux](https://fabiencollet64.github.io/ITS/ouvrages/centres-commerciaux/): Renforcement de poutres et de dalles pendant l'exploitation du centre. Référence : renforcement d'une poutre de 50 mètres dans un centre commercial à Paris.
+- [Équipements sportifs](https://fabiencollet64.github.io/ITS/ouvrages/equipements-sportifs/): Tribunes, gradins et bassins : renforcement par précontrainte additionnelle et étanchéité.
 
 ## Réalisations récentes
 
@@ -58,8 +58,8 @@ Noms utilisés : ITS Travaux Spéciaux, ITS, IVEBAT, ITS Ingénierie et Travaux 
 
 ## Pages clés
 
-- [Page d'accueil](https://fabiencollet64.github.io/its-travaux-speciaux/): présentation, expertises, pathologies, ouvrages, réalisations, FAQ, implantations
-- [FAQ](https://fabiencollet64.github.io/its-travaux-speciaux/#faq): réponses aux questions fréquentes des maîtres d'ouvrage
-- [Contact et demande de diagnostic](https://fabiencollet64.github.io/its-travaux-speciaux/contact/)
-- [Recrutement](https://fabiencollet64.github.io/its-travaux-speciaux/recrutement/)
-- [Plan du site (sitemap.xml)](https://fabiencollet64.github.io/its-travaux-speciaux/sitemap.xml)
+- [Page d'accueil](https://fabiencollet64.github.io/ITS/): présentation, expertises, pathologies, ouvrages, réalisations, FAQ, implantations
+- [FAQ](https://fabiencollet64.github.io/ITS/#faq): réponses aux questions fréquentes des maîtres d'ouvrage
+- [Contact et demande de diagnostic](https://fabiencollet64.github.io/ITS/contact/)
+- [Recrutement](https://fabiencollet64.github.io/ITS/recrutement/)
+- [Plan du site (sitemap.xml)](https://fabiencollet64.github.io/ITS/sitemap.xml)

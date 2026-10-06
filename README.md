@@ -21,7 +21,7 @@ Site de référence : https://www.its-entreprise.com/
 | `pathologies/`, `ouvrages/`, `expertises/`, `contact/`, `recrutement/`, `mentions-legales/` | Pages secondaires « squelette » générées, marquées [À COMPLÉTER] |
 | `rapports/` | Rapports Lighthouse (mobile, bureau) de la maquette |
 | `tools/` | Scripts de génération (images, pages, changement d'URL de base) |
-| `.github/workflows/pages.yml` | Déploiement automatique sur GitHub Pages |
+| `.github/workflows/pages.yml` | Déploiement GitHub Pages par Actions (lancement manuel, si la source Pages est « GitHub Actions ») |
 
 ## Éléments à compléter avant mise en ligne
 
@@ -39,6 +39,12 @@ Site de référence : https://www.its-entreprise.com/
 - **Police** : la maquette utilise la pile de polices système (LCP mobile
   simulé 0,9 s). Inter est fournie dans `assets/fonts/` ; l'activer ajoute
   environ 0,3 s au LCP simulé.
+
+## Déploiement
+
+Maquette en ligne : https://fabiencollet64.github.io/ITS/ (GitHub Pages,
+source « Deploy from a branch », branche `claude/inspiring-newton-tw2j3r`,
+dossier racine). Chaque push sur cette branche met le site à jour.
 
 ## Changer l'URL de base
 

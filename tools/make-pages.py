@@ -12,7 +12,7 @@ from pathlib import Path
 from datetime import date
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = "https://fabiencollet64.github.io/its-travaux-speciaux/"
+BASE = "https://fabiencollet64.github.io/ITS/"
 TODAY = date.today().isoformat()
 
 PAGES = {

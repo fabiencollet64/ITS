@@ -1,8 +1,9 @@
 name: Déploiement GitHub Pages
 
+# Déploiement via GitHub Actions, à lancer manuellement si la source Pages est
+# réglée sur « GitHub Actions ». Avec la source « Deploy from a branch »
+# (réglage actuel du dépôt ITS), GitHub publie la branche directement.
 on:
-  push:
-    branches: [main, claude/inspiring-newton-tw2j3r]
   workflow_dispatch:
 
 permissions:

@@ -37,4 +37,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://fabiencollet64.github.io/its-travaux-speciaux/sitemap.xml
+Sitemap: https://fabiencollet64.github.io/ITS/sitemap.xml

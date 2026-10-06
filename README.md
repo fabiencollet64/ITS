@@ -32,8 +32,15 @@ Site de référence : https://www.its-entreprise.com/
   `parking-lorilleux`, `centre-commercial`, `equipe-chantier`, en .jpg/.png),
   ou renseigner leurs URL dans `tools/fetch-photos.sh`, puis lancer
   `python3 tools/build-images.py`.
-- **Logo** : `assets/img/logo.svg`, `favicon.svg` et `logo-512.png` sont des
-  logos provisoires à remplacer par le logo officiel.
+- **Logo** : `assets/img/logo-its.webp`, `logo-512.png` et `favicon.png` sont
+  issus d'un fichier de 300 px de large ; à remplacer par le logo officiel en
+  SVG ou en haute définition.
+- **Logos clients** (`assets/img/clients/`, bandeau « Ils nous ont fait
+  confiance ») : découpés à partir de captures d'écran du site actuel, donc en
+  basse définition. À remplacer par les fichiers sources, en gardant les mêmes
+  noms. Le carrousel du site actuel compte 12 clients ; 11 ont pu être relevés
+  (E.Leclerc, Primark, AXA, RIVP, BNP Paribas Real Estate, Les Sables d'Olonne,
+  SIAH, SIAV, Icade, Unibail-Rodamco-Westfield, Airbus).
 - **Blocs [À COMPLÉTER]** : contexte et date des réalisations, téléphone de
   l'agence de La Mézière, contenu des pages secondaires.
 - **Police** : la maquette utilise la pile de polices système (LCP mobile

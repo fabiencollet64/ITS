@@ -62,7 +62,7 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#141a21">
-<link rel="icon" href="{rel}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{rel}assets/img/favicon.png" type="image/png" sizes="64x64">
 <style>
 :root{{--red:#c8102e;--red-dark:#a30d25;--ink:#14181d;--dark:#1b2129;--grey:#f3f4f6;--line:#dfe3e8;--muted:#4b5563}}
 *{{box-sizing:border-box}}
@@ -73,7 +73,7 @@ body{{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica 
 header{{border-bottom:1px solid var(--line)}}
 header .wrap{{display:flex;align-items:center;gap:1rem;min-height:72px;flex-wrap:wrap}}
 .brand{{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);font-weight:800;min-height:48px}}
-.brand svg{{width:40px;height:40px}}
+.brand img{{width:98px;height:50px}}
 header nav a{{display:inline-flex;align-items:center;min-height:48px;padding:0 .7rem;color:var(--ink);font-weight:600;text-decoration:none}}
 header nav a:hover{{color:var(--red-dark)}}
 main{{padding:2.5rem 0 3rem}}
@@ -91,7 +91,7 @@ footer a{{color:#fff}}
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header>
   <div class="wrap">
-    <a class="brand" href="{rel}"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect width="48" height="48" rx="8" fill="#c8102e"/><text x="24" y="31" text-anchor="middle" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="19" fill="#fff">ITS</text></svg>ITS Travaux Spéciaux</a>
+    <a class="brand" href="{rel}"><img src="{rel}assets/img/logo-its.webp" width="98" height="50" alt="ITS Travaux Spéciaux – accueil" decoding="async"></a>
     <nav aria-label="Navigation principale"><a href="{rel}#expertises">Expertises</a><a href="{rel}#pathologies">Pathologies</a><a href="{rel}#ouvrages">Ouvrages</a><a href="{rel}#realisations">Réalisations</a><a href="{rel}contact/">Contact</a></nav>
   </div>
 </header>
